@@ -12,6 +12,6 @@ def line(katz_deli)
       line_order.push(" #{i}.#{person}")
       i += 1
     end
-    puts line_order
+    puts "The line is currently: #{line_order}."
   end
 end
