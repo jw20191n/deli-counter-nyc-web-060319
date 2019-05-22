@@ -20,7 +20,7 @@ def take_a_number(array,person)
     puts "Welcome, #{person}. You are number 1 in line."
     array.push(person)
   else
-  
-    puts "Welcome, #{person}. You are number #{array.length-1} in line."
+    array.push(person)
+    puts "Welcome, #{person}. You are number #{array.length} in line."
   end
 end
