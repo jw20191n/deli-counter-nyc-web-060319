@@ -8,8 +8,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |person|
-      line_order.push("#{i}.#{person}")
+      line_order.push(" #{i}.#{person}")
       i += 1
     end
   end
+  puts "The line is currently: #{line_order}."
 end
