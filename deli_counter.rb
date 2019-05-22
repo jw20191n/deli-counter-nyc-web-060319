@@ -4,7 +4,7 @@ def line(array)
   message = "The line is currently:"
   i = 1
   
-  if array.empty
+  if array.empty?
     puts "The line is currently empty."
   else
     line_order = ["The line is currently:"]
