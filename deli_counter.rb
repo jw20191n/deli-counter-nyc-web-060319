@@ -8,9 +8,9 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |person|
-      line_order.push(" #{i}.#{person}")
+      message += (" #{i}.#{person}")
       i += 1
     end
-    puts line_order
+    puts message.to_s
   end
 end
