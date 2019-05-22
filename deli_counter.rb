@@ -14,3 +14,7 @@ def line(array)
     puts message.to_s
   end
 end
+
+def take_a_number(array,person)
+  if array.empty?
+end
