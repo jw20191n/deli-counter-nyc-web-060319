@@ -4,7 +4,7 @@ def line(katz_deli)
   line_order = []
   i = 1
   
-  if katz_deli.size == 0
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
     katz_deli.each do |person|
