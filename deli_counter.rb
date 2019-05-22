@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |person|
-      message += (" #{i}.#{person}")
+      message += (" #{i}. #{person}")
       i += 1
     end
     puts message.to_s
