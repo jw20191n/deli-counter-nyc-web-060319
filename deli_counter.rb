@@ -1,4 +1,4 @@
 katz_deli = [ ]
 
-def link
+def line(katz_deli)
 end
