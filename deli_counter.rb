@@ -1,10 +1,10 @@
 katz_deli = [ ]
 
-def line(katz_deli)
-  line_order = []
+def line(array)
+  message = "The line is currently:"
   i = 1
   
-  if katz_deli.size == 0
+  if array.empty
     puts "The line is currently empty."
   else
     line_order = ["The line is currently:"]
